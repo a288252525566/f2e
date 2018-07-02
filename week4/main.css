@@ -122,18 +122,12 @@ html body{
 }
 .mainPage_content.works{
     display: grid;
-    grid-template-columns: repeat(12, 58px);
-    grid-template-rows: repeat(20, 58px);
+    grid-template-columns: repeat(20, calc(5vw - 20px));
+    grid-template-rows: repeat(12, calc(5vw - 20px));
     grid-gap: 20px;
     min-width: 100%;
     text-align: center;
     justify-content: center;
-}
-@media screen and (min-width: 1300px){
-    .mainPage_header.topArtist h1{
-        grid-template-columns: repeat(12, calc( - 20px));
-        grid-template-rows: repeat(20, calc(6vw - 20px));
-    }
 }
 
 .mainPage_content.works img{
