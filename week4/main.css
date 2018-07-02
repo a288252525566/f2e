@@ -1,6 +1,5 @@
 html body{
     height:100%;
-    overflow: hidden;
     background:rgb(32, 32, 32);
 }
 *{
@@ -29,7 +28,6 @@ html body{
     max-width:1600px;
     height:calc(100% - 40px);
     margin:auto;
-    overflow-y: scroll;
 }
 .background{
     z-index: -1;
